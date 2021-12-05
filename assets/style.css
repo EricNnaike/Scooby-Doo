@@ -23,8 +23,10 @@ label{
 input{
     padding: 10px 5px;
     width: 450px;
-    /* border: none;
-    outline: none; */
+    border: none;
+}
+input:focus{
+    background-color: rgb(170, 170, 223);
 }
 button{
     padding: 10px 50px;
@@ -34,7 +36,7 @@ button{
     margin: 0;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 @media only screen and (min-width: 200px) and (max-width: 700px){
     .wrapper{
